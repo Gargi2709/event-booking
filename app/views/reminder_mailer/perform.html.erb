@@ -1,0 +1,9 @@
+<h1> Reminder email for event </h1>
+<p>Details:</p>
+<ul>
+  <li>Event: <%= @booking.ticket.event.name %></li>
+  <li>Date: <%= @booking.ticket.event.date %></li>
+  <li>Venue: <%= @booking.ticket.event.venue %></li>
+  <li>Persons: <%= @booking.quantity %></li>
+  <li>Total Price: <%= @booking.total_price %></li>
+</ul>
